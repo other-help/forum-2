@@ -14,6 +14,6 @@ application key
 
 	php artisan key:generate        
 
-Migration and seed
+Migration et seed
 
 `php artisan migrate --seed`
