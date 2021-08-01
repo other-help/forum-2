@@ -1,19 +1,19 @@
-# How to use
+# Utilisation
 
 
 Clone repo
 
-	git clone https://github.com/webdevmatics/webdevforum.git
-Install the composer dependencies
+	git clone https://github.com/other-help/forum-2.git
+Installer les dependances de composer
 
 	composer install
 	
-Save .env.example as .env and put your database credentials
+copie .env.example dans .env et configure les identifiants de ta base de donnée
 
-Set application key
+application key
 
 	php artisan key:generate        
 
-And Migrate with
+Migration and seed
 
-`php artisan migrate`
+`php artisan migrate --seed`
